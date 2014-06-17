@@ -1,163 +1,71 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!doctype html>
+<html>
   <head>
-    <title>Searchable Map Template Demo</title>
-    <meta charset='utf-8' />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta content='' name='description' />
-    <meta content='' name='author' />
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/custom.css"/>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Fusiontable-map-template by JMFURY</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
-      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class='navbar navbar-default navbar-static-top'>
-      <div class='container'>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class='navbar-brand' href='index.html'>Searchable Map Template</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class='active'><a href="index.html">Map</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    <div class="wrapper">
+      <header>
+        <h1>Fusiontable-map-template</h1>
+        <p>Searchable Map Template using Google Maps and Fusion Tables</p>
+
+        <p class="view"><a href="https://github.com/JMFURY/FusionTable-Map-Template">View the Project on GitHub <small>JMFURY/FusionTable-Map-Template</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/JMFURY/FusionTable-Map-Template/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/JMFURY/FusionTable-Map-Template/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/JMFURY/FusionTable-Map-Template">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/JMFURY">JMFURY</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-4'>
-          <p>This is a demo of <a href='http://derekeder.com'>Derek Eder's</a> <a href='http://derekeder.com/searchable_map_template/'>Searchable Map Template</a> using Google <a href='http://support.google.com/fusiontables/answer/2571232?hl=en&ref_topic=1652595'>Fusion Tables</a>. Use this section to give a little context your map.</p>
-          <div class='well'>
-            <h4>
-              Address <small>(<a id='find_me' href='#'>find me</a>)</small>
-            </h4>
-            <p>
-              <input class='form-control' id='search_address' placeholder='Enter an address or an intersection' type='text' />
-            </p>
-            <p>
-              <label>
-                within
-                <select id='search_radius'>
-                  <option value='400'>2 blocks</option>
-                  <option value='805'>1/2 mile</option>
-                  <option value='1610'>1 mile</option>
-                  <option value='3220'>2 miles</option>
-                </select>
-              </label>
-            </p>
-
-            <br />
-            <h4>Custom filters and views</h4>
-            <p>Take a look at the <a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples'>wiki</a> to see how to add your own custom filters and views like:</p>
-            <div class='row'>
-              <div class='col-md-6'>
-                <ul>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-checkboxes'>Checkboxes</a></li>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-radiobuttons'>Radio buttons</a></li>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-drop-down-lists'>Drop down lists</a></li>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-textsearches'>Text searches</a></li>
-                </ul>
-              </div>
-              <div class='col-md-6'>
-                <ul>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-sliders'>Sliders</a></li>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-date-sliders'>Date sliders</a></li>
-                  <li><a href='https://github.com/derekeder/FusionTable-Map-Template/wiki/List-search-results'>Results lists</a></li>
-                </ul>
-              </div>
-            </div>
-            <br />
-            <a class='btn btn-primary' id='search' href='#'>
-              <i class='glyphicon glyphicon-search'></i>
-              Search
-            </a>
-            <a class='btn btn-default' id='reset' href='#'>
-              <i class='glyphicon glyphicon-repeat'></i>
-              Reset
-            </a>
-          </div>
-          <div class='alert alert-info' id='result_box' ><strong id='result_count'></strong></div>
-        </div>
-        <div class='col-md-8'>
-          <noscript>
-            <div class='alert alert-info'>
-              <h4>Your JavaScript is disabled</h4>
-              <p>Please enable JavaScript to view the map.</p>
-            </div>
-          </noscript>
-          <div id='map_canvas'></div>
-          <p class='pull-right'>
-            <a href='http://derekeder.com/searchable_map_template/'>Searchable Map Template</a> by <a href='http://derekeder.com'>Derek Eder</a>.
-        </p>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.address.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=places&v=3.14"></script>
-    <script type="text/javascript" src="js/jquery.geocomplete.min.js"></script>
-    <script type="text/javascript" src="js/maps_lib.js"></script>
-    <script type='text/javascript'>
-      //<![CDATA[
-        $(window).resize(function () {
-          var h = $(window).height(),
-            offsetTop = 105; // Calculate the top offset
-        
-          $('#map_canvas').css('height', (h - offsetTop));
-        }).resize();
-        
-        $(function() {
-          MapsLib.initialize();
-          $("#search_address").geocomplete();
-
-          $(':checkbox').click(function(){
-            MapsLib.doSearch();
-          });
-
-          $(':radio').click(function(){
-            MapsLib.doSearch();
-          });
-          
-          $('#search_radius').change(function(){
-            MapsLib.doSearch();
-          });
-          
-          $('#search').click(function(){
-            MapsLib.doSearch();
-          });
-          
-          $('#find_me').click(function(){
-            MapsLib.findMe(); 
-            return false;
-          });
-          
-          $('#reset').click(function(){
-            $.address.parameter('address','');
-            MapsLib.initialize(); 
-            return false;
-          });
-          
-          $(":text").keydown(function(e){
-              var key =  e.keyCode ? e.keyCode : e.which;
-              if(key == 13) {
-                  $('#search').click();
-                  return false;
-              }
-          });
-        });
-      //]]>
-    </script>
+    <script src="javascripts/scale.fix.js"></script>
+    
   </body>
 </html>
